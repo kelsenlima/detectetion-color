@@ -5,7 +5,7 @@ import cv2
 import numpy as np
 import pandas as pd
 
-img_path = 'google.jpg'
+img_path = 'cores.jpg'
 img = cv2.imread(img_path)
 img=cv2.resize(img,(700,500))
 
@@ -60,5 +60,5 @@ while(1):
 
     if cv2.waitKey(20) & 0xFF ==27:
         break
-    
+
 cv2.destroyAllWindows()
